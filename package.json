@@ -2,8 +2,6 @@
   "name": "stack_mern",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/MegDeri/mern30_6.git",
-  "author": "Magda",
   "license": "MIT",
   "dependencies": {
     "animate.css": "3.7.0",
