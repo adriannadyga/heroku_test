@@ -1,0 +1,30 @@
+{
+  "name": "stack_mern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MegDeri/mern30_6.git",
+  "author": "Magda",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "3.7.0",
+    "node-sass": "4.12.0",
+    "npm-run-all": "4.1.5",
+    "react-animated-css": "1.2.1",
+    "react-facebook": "8.0.4",
+    "react-html-parser": "2.0.2",
+    "react-icons": "3.7.0",
+    "react-medium-editor": "1.8.1",
+    "react-redux": "7.0.1",
+    "react-router-dom": "5.0.0",
+    "redux": "4.0.1",
+    "redux-thunk": "2.3.0"
+  },
+  "scripts": {
+    "start": "npm-run-all -p -l start:*",
+    "start:server": "cd server && yarn start",
+    "start:client": "cd client && yarn start",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "postinstall": "run-p install:*"
+  }
+}
